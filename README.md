@@ -2,15 +2,17 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1793d1,100:2C2D72&height=200&section=header&text=g4zwr&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=1793D1&center=true&vCenter=true&width=500&lines=Scripting+in+Lua+%26+Luau;Arch-based+%2F+CachyOS+enjoyer;Dual-booting+Windows+for+the+rest" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=1793D1&center=true&vCenter=true&width=500&lines=Solo+dev+%7C+Beginner+%7C+Still+learning;Scripting+in+Luau;Arch-based+%2F+CachyOS+enjoyer;Dual-booting+Windows+for+the+rest" alt="Typing SVG" /></a>
 
 </div>
 
 ---
 
 ### 🛠️ Languages
-[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://lua.org)
 [![Luau](https://img.shields.io/badge/Luau-00A2FF?style=for-the-badge&logo=roblox&logoColor=white)](https://luau.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Markdown](https://img.shields.io/badge/Markdown-100?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org)
 
 ### 💻 Operating Systems
