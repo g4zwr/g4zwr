@@ -1,7 +1,6 @@
 # Hi, I'm g4zwr
 
 ## Languages
-[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://lua.org)
 [![Luau](https://img.shields.io/badge/Luau-00A2FF?style=for-the-badge&logo=roblox&logoColor=white)](https://luau.org)
 [![Markdown](https://img.shields.io/badge/Markdown-100?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org)
 
