@@ -3,8 +3,7 @@
   <br/><br/>
   <img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&background=000000&center=true&vCenter=true&width=460&weight=700&lines=g4zwr+on+roblox.;g4zwr+on+youtube.;g4zwr+on+discord.;g4zwr+on+newgrounds." alt="Typing SVG" />
   <br/>
- <img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&background=000000&center=true&vCenter=true&width=460&weight=700&lines=GAME+DEVELOPER;MUSIC+PRODUCER;ANIMATOR;DIGITAL+ARTIST" alt="Typing SVG" />
-</div>
+ 
 
 <br/>
 
