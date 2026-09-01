@@ -8,7 +8,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:000000,100:000000&height=30&text=ABOUT&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=ABOUT&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 
 <p align="center">
@@ -19,7 +19,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:000000,100:000000&height=30&text=LANGUAGES&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=LANGUAGES&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 <div align="center">
   <a href="https://luau.org"><img src="https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white" height="150"/></a>
@@ -31,7 +31,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:000000,100:000000&height=30&text=ENVIRONMENT&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=ENVIRONMENT&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 <div align="center">
   <a href="https://kernel.org"><img src="https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white" height="150"/></a>
@@ -42,7 +42,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:000000,100:000000&height=30&text=TOOLS&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=TOOLS&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 <div align="center">
   <a href="https://create.roblox.com"><img src="https://img.shields.io/badge/ROBLOX_STUDIO-000000?style=for-the-badge&logo=roblox&logoColor=white" height="150"/></a>
@@ -54,7 +54,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:000000,100:000000&height=30&text=ART+/+ANIMATION&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=ART+/+ANIMATION&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 <div align="center">
   <img src="https://img.shields.io/badge/IBIS_PAINT_X-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDUwLjggNTAuOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCjxnIHN0cm9rZS13aWR0aD0iMy4wODkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0uNjgzIC0uNzA2KSBzY2FsZSgxLjAyNzgpIj4KCjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNi4zNSA0NC40NVYyMy44MTMiLz4KCjxjaXJjbGUgY3g9IjYuMzUiIGN5PSIxOS4wNSIgcj0iMS41ODciIGZpbGw9IiNmZmZmZmYiLz4KCjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KCjxwYXRoIGQ9Ik0xNi42NjkgNDQuNDVWMjAuNjM4Ii8%2BCgo8Y2lyY2xlIGN4PSIzMC41NTkiIGN5PSIyMC4yNDEiIHI9IjEzLjg5MSIvPgoKPGNpcmNsZSBjeD0iMzAuNTU5IiBjeT0iMjAuMjQxIiByPSI1LjU1NiIvPgoKPC9nPgoKPC9nPgoKPC9zdmc%2B&logoColor=white" height="150"/>
@@ -64,7 +64,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:000000,100:000000&height=30&text=STATS&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=STATS&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 <div align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=g4zwr&show_icons=true&count_private=true&hide_border=false&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=cccccc&icon_color=ffffff" width="48%"/>
