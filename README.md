@@ -11,51 +11,51 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=LANGUAGES&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=LANGUAGES&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
 </div>
 
 <div align="center">
 
-[![Luau](https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://luau.org)
-[![Python](https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=ENVIRONMENT&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
-</div>
-
-<div align="center">
-
-[![Linux](https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white)](https://kernel.org)
-[![Arch](https://img.shields.io/badge/ARCH_BASED-000000?style=for-the-badge&logo=archlinux&logoColor=white)](https://archlinux.org)
-[![Windows](https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+<a href="https://luau.org"><img src="https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white" height="110"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white" height="110"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="110"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white" height="110"/></a>
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=TOOLS&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=ENVIRONMENT&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
 </div>
 
 <div align="center">
 
-[![Roblox Studio](https://img.shields.io/badge/ROBLOX_STUDIO-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://create.roblox.com)
-[![FL Studio Mobile](https://img.shields.io/badge/FL_STUDIO_MOBILE-000000?style=for-the-badge)](https://www.image-line.com/fl-studio-mobile/)
-[![Prisma 3D](https://img.shields.io/badge/PRISMA_3D-000000?style=for-the-badge)](https://prisma3d.net)
-[![ApkTool M](https://img.shields.io/badge/APKTOOL_M-000000?style=for-the-badge)](https://maximoff.su/apktool/)
+<a href="https://kernel.org"><img src="https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white" height="110"/></a>
+<a href="https://archlinux.org"><img src="https://img.shields.io/badge/ARCH_BASED-000000?style=for-the-badge&logo=archlinux&logoColor=white" height="110"/></a>
+<a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logo=windows&logoColor=white" height="110"/></a>
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=STATS&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=TOOLS&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
+</div>
+
+<div align="center">
+
+<a href="https://create.roblox.com"><img src="https://img.shields.io/badge/ROBLOX_STUDIO-000000?style=for-the-badge&logo=roblox&logoColor=white" height="110"/></a>
+<a href="https://www.image-line.com/fl-studio-mobile/"><img src="https://img.shields.io/badge/FL_STUDIO_MOBILE-000000?style=for-the-badge" height="110"/></a>
+<a href="https://prisma3d.net"><img src="https://img.shields.io/badge/PRISMA_3D-000000?style=for-the-badge" height="110"/></a>
+<a href="https://maximoff.su/apktool/"><img src="https://img.shields.io/badge/APKTOOL_M-000000?style=for-the-badge" height="110"/></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=STATS&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
 </div>
 
 <div align="center">
