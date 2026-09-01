@@ -8,14 +8,14 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=ENVIRONMENT&fontSize=40&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>  
 </div>  <div align="center">  <a href="https://kernel.org"><img src="https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white" height="110"/></a>
 <a href="https://archlinux.org"><img src="https://img.shields.io/badge/ARCH_BASED-000000?style=for-the-badge&logo=archlinux&logoColor=white" height="110"/></a>
-<a href="https://www.microsoft.com/windows"><img src="https://raw.githubusercontent.com/g4zwr/g4zwr/main/Untitled370_20260901162744.png" height="110"/><img src="https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logoColor=white" height="110"/></a>
+<a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAIRUlEQVR42u1aTYwcVxH%2BXr2eWa%2FHHtvxOsZOIIosYlYGrMRBMsQ%2Fi%2FPDj4SROHBAHDigIOCAxAkOyCsfEDdQIkAREhzIARlFgIQSEUwwsR1%2BvDI4WjByHDZCXu%2FajmfY2dndme6uKg68t3pp7c9M96yjJVNSq2e7d2rq1van1qddu7ct5cE6vgLgDlA1QAAAABJRU5ErkJggg%3D%3D&logoColor=white" height="110"/></a>
 
 </div>  <br/>  <div align="center">  
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=TOOLS&fontSize=30&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>  
 </div>  <div align="center">  <a href="https://create.roblox.com"><img src="https://img.shields.io/badge/ROBLOX_STUDIO-000000?style=for-the-badge&logo=roblox&logoColor=white" height="110"/></a>
-<a href="https://www.image-line.com/fl-studio-mobile/"><img src="https://raw.githubusercontent.com/g4zwr/g4zwr/main/Untitled370_20260901162748.png" height="110"/><img src="https://img.shields.io/badge/FL_STUDIO_MOBILE-000000?style=for-the-badge" height="110"/></a>
+<a href="https://www.image-line.com/fl-studio-mobile/"><img src="https://img.shields.io/badge/FL_STUDIO_MOBILE-000000?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAH4klEQVR42u1af4xcVRU%2B9810Z2ztj9WWZiOmCY1IGrVgKxpJJJEYIn%2BgEkEJkYTEGJAYNFGJKNlEo0AwoUUbNCQghqhpRf9AQYW2FHUTYG0LViyr7bRkt7PuzHZfZ%2Bbte%2Ffec%2B7nH723vKy7a7fdsm%2FpnGSSnTvvvZ3zne9895vT9/kSbGVn5+Aw%2BvgLgDlA1QAAAABJRU5ErkJggg%3D%3D&logoColor=white" height="110"/></a>
 <a href="https://prisma3d.net"><img src="https://img.shields.io/badge/PRISMA_3D-000000?style=for-the-badge" height="110"/></a>
-<a href="https://maximoff.su/apktool/"><img src="https://raw.githubusercontent.com/g4zwr/g4zwr/main/Untitled370_20260901162752.png" height="110"/><img src="https://img.shields.io/badge/APKTOOL_M-000000?style=for-the-badge" height="110"/></a>
+<a href="https://maximoff.su/apktool/"><img src="https://img.shields.io/badge/APKTOOL_M-000000?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFOUlEQVR42u2YTWgcVRzA%2F29mN2s3bVNDFCmlphYsae3Ri%2BJVFPHgB4iKB3vxJJ48WdmLIEorKnpQxA%2FQy4oYUwQr6NJLSGXTKGKatLXJLs0u22x2h51582bmvTd%2FD%2FsmTLbZJhtmm0XeDwZ2lpn5f43%2BM3zc9J3ptTAmt6Njx1Fj9%2FAXAHKBqAAAAAElFTkSuQmCC&logoColor=white" height="110"/></a>
 
 </div>  <br/>  <div align="center">  
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=STATS&fontSize=30&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>  
