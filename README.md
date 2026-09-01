@@ -40,6 +40,21 @@
 <br/>
 
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=TOOLS&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
+</div>
+
+<div align="center">
+
+[![Roblox Studio](https://img.shields.io/badge/ROBLOX_STUDIO-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://create.roblox.com)
+[![FL Studio Mobile](https://img.shields.io/badge/FL_STUDIO_MOBILE-000000?style=for-the-badge)](https://www.image-line.com/fl-studio-mobile/)
+[![Prisma 3D](https://img.shields.io/badge/PRISMA_3D-000000?style=for-the-badge)](https://prisma3d.net)
+[![ApkTool M](https://img.shields.io/badge/APKTOOL_M-000000?style=for-the-badge)](https://maximoff.su/apktool/)
+
+</div>
+
+<br/>
+
+<div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=STATS&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
 </div>
 
