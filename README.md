@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=LANGUAGES&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=LANGUAGES&fontSize=40&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>
 </div>
 
 <div align="center">
@@ -19,14 +19,14 @@
 <a href="https://luau.org"><img src="https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white" height="110"/></a>
 <a href="https://python.org"><img src="https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white" height="110"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="110"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white" height="110"/></a>
+
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=ENVIRONMENT&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=ENVIRONMENT&fontSize=40&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>
 </div>
 
 <div align="center">
@@ -40,7 +40,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=TOOLS&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=TOOLS&fontSize=30&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>
 </div>
 
 <div align="center">
@@ -55,7 +55,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=200&text=STATS&fontSize=90&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=50&text=STATS&fontSize=30&fontColor=ffffff&fontAlignY=65&stroke=ffffff&strokeWidth=1" width="100%"/>
 </div>
 
 <div align="center">
