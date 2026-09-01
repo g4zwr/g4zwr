@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1a1a1a&height=160&section=header&text=g4zwr&fontSize=60&fontColor=ffffff&fontAlignY=50" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1200&color=CCCCCC&center=true&vCenter=true&width=440&lines=Roblox+Developer;Systems+%26+Tooling" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1200&color=CCCCCC&center=true&vCenter=true&width=440&lines=Roblox+Dev;Systems+%26+Tooling" alt="Typing SVG" />
 
 </div>
 
