@@ -4,7 +4,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=140&section=header&text=g4zwr&fontSize=58&fontColor=ffffff&fontAlignY=55&stroke=ffffff&strokeWidth=1" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&center=true&vCenter=true&width=460&weight=700&lines=ROBLOX+DEV" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&center=true&vCenter=true&width=460&weight=700&lines=GAME+DEVELOPER" alt="Typing SVG" />
 
 </div>
 
