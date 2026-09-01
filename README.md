@@ -11,10 +11,22 @@
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=ABOUT&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
 </div>
 
+
+
 <p align="center">
   I build games, produce music, animate, and draw — all self-taught, all from the ground up.<br/>
   Currently deep in Roblox development, mobile music production, and 2D/3D art.
 </p>
+
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:000000&height=30&text=LANGUAGES&fontSize=30&fontColor=ffffff&fontAlignY=50" width="100%"/>
+</div>
+<div align="center">
+  <a href="https://luau.org"><img src="https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white" height="30"/></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white" height="30"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="30"/></a>
+</div>
 
 <br/>
 
