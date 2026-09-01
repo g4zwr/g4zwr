@@ -10,22 +10,38 @@
 
 <br/>
 
-### LANGUAGES
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffffff,100:ffffff&height=45&text=LANGUAGES&fontSize=18&fontColor=000000&fontAlignY=60&stroke=000000&strokeWidth=1" width="260"/>
+</div>
 
-[![Luau](https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://luau.org)
-[![Python](https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+<div align="center">
 
-### ENVIRONMENT
+[![Luau](https://img.shields.io/badge/LUAU-ffffff?style=for-the-badge&logo=roblox&logoColor=black)](https://luau.org)
+[![Python](https://img.shields.io/badge/PYTHON-ffffff?style=for-the-badge&logo=python&logoColor=black)](https://python.org)
+[![HTML5](https://img.shields.io/badge/HTML5-ffffff?style=for-the-badge&logo=html5&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-ffffff?style=for-the-badge&logo=css3&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-[![Linux](https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white)](https://kernel.org)
-[![Arch](https://img.shields.io/badge/ARCH_BASED-000000?style=for-the-badge&logo=archlinux&logoColor=white)](https://archlinux.org)
-[![Windows](https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+</div>
 
 <br/>
 
-### STATS
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffffff,100:ffffff&height=45&text=ENVIRONMENT&fontSize=18&fontColor=000000&fontAlignY=60&stroke=000000&strokeWidth=1" width="260"/>
+</div>
+
+<div align="center">
+
+[![Linux](https://img.shields.io/badge/LINUX-ffffff?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
+[![Arch](https://img.shields.io/badge/ARCH_BASED-ffffff?style=for-the-badge&logo=archlinux&logoColor=black)](https://archlinux.org)
+[![Windows](https://img.shields.io/badge/WINDOWS-ffffff?style=for-the-badge&logo=windows&logoColor=black)](https://www.microsoft.com/windows)
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffffff,100:ffffff&height=45&text=STATS&fontSize=18&fontColor=000000&fontAlignY=60&stroke=000000&strokeWidth=1" width="260"/>
+</div>
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=g4zwr&show_icons=true&count_private=true&hide_border=false&bg_color=ffffff&border_color=000000&title_color=000000&text_color=333333&icon_color=000000" width="48%"/>
@@ -38,7 +54,9 @@
 
 <br/>
 
-### ACTIVITY
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffffff,100:ffffff&height=45&text=ACTIVITY&fontSize=18&fontColor=000000&fontAlignY=60&stroke=000000&strokeWidth=1" width="260"/>
+</div>
 
 <img src="https://raw.githubusercontent.com/g4zwr/g4zwr/output/github-contribution-grid-snake.svg" width="100%"/>
 
@@ -46,6 +64,6 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=g4zwr&color=000000&style=for-the-badge&label=VIEWS" height="28"/>
+<img src="https://komarev.com/ghpvc/?username=g4zwr&color=lightgrey&style=for-the-badge&label=VIEWS" height="28"/>
 
 </div>
