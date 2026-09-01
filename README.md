@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=LANGUAGES&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=LANGUAGES&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
 </div>
 
 <div align="center">
@@ -26,7 +26,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=ENVIRONMENT&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=ENVIRONMENT&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
 </div>
 
 <div align="center">
@@ -40,7 +40,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=TOOLS&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=TOOLS&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
 </div>
 
 <div align="center">
@@ -55,7 +55,7 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=STATS&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=55&text=STATS&fontSize=26&fontColor=ffffff&fontAlignY=62&stroke=ffffff&strokeWidth=1" width="320"/>
 </div>
 
 <div align="center">
