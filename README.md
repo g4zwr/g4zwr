@@ -4,7 +4,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=140&section=header&text=g4zwr&fontSize=58&fontColor=ffffff&fontAlignY=55&stroke=ffffff&strokeWidth=1" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&center=true&vCenter=true&width=460&weight=700&lines=GAME+DEVELOPER" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=18&pause=1400&color=ffffff&center=true&vCenter=true&width=460&weight=700&lines=BUILDS+GAMES;PRODUCES+BEATS;SCULPTS+3D;REVERSE-ENGINEERS+APKS" alt="Typing SVG" />
 
 </div>
 
@@ -16,10 +16,57 @@
 
 <div align="center">
 
-[![Luau](https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://luau.org)
-[![Python](https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[
+
+![Luau](https://img.shields.io/badge/LUAU-000000?style=for-the-badge&logo=roblox&logoColor=white)
+
+](https://luau.org)
+[
+
+![Python](https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=white)
+
+](https://python.org)
+[
+
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)
+
+](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[
+
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)
+
+](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=TOOLS&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
+</div>
+
+<div align="center">
+
+[
+
+![Roblox Studio](https://img.shields.io/badge/ROBLOX_STUDIO-000000?style=for-the-badge&logo=roblox&logoColor=white)
+
+](https://create.roblox.com)
+[
+
+![FL Studio Mobile](https://img.shields.io/badge/FL_STUDIO_MOBILE-000000?style=for-the-badge&logo=musicbrainz&logoColor=white)
+
+](https://www.image-line.com/fl-studio-mobile/)
+[
+
+![Prisma 3D](https://img.shields.io/badge/PRISMA_3D-000000?style=for-the-badge&logo=blender&logoColor=white)
+
+](https://prisma3d.app)
+[
+
+![APKTool](https://img.shields.io/badge/APKTOOL-000000?style=for-the-badge&logo=android&logoColor=white)
+
+](https://ibotpeaches.github.io/Apktool/)
 
 </div>
 
@@ -31,9 +78,21 @@
 
 <div align="center">
 
-[![Linux](https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white)](https://kernel.org)
-[![Arch](https://img.shields.io/badge/ARCH_BASED-000000?style=for-the-badge&logo=archlinux&logoColor=white)](https://archlinux.org)
-[![Windows](https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[
+
+![Linux](https://img.shields.io/badge/LINUX-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+](https://kernel.org)
+[
+
+![Arch](https://img.shields.io/badge/ARCH_BASED-000000?style=for-the-badge&logo=archlinux&logoColor=white)
+
+](https://archlinux.org)
+[
+
+![Windows](https://img.shields.io/badge/WINDOWS-000000?style=for-the-badge&logo=windows&logoColor=white)
+
+](https://www.microsoft.com/windows)
 
 </div>
 
