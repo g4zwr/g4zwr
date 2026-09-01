@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1793d1,100:2C2D72&height=200&section=header&text=g4zwr&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=1793D1&center=true&vCenter=true&width=500&lines=Roblox+Developer;Mainly+uses+Windows;Scripting+in+Luau;Arch-based+%2F+CachyOS+enjoyer" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=1793D1&center=true&vCenter=true&width=500&lines=Roblox+Developer;Arch-based+%2F+CachyOS+enjoyer" alt="Typing SVG" /></a>
 
 </div>
 
