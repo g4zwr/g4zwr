@@ -55,14 +55,6 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=45&text=ACTIVITY&fontSize=18&fontColor=ffffff&fontAlignY=60&stroke=ffffff&strokeWidth=1" width="260"/>
-</div>
-
-<img src="https://raw.githubusercontent.com/g4zwr/g4zwr/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-<br/>
-
-<div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=g4zwr&color=000000&style=for-the-badge&label=VIEWS" height="28"/>
 
