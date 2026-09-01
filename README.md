@@ -4,7 +4,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=140&section=header&text=g4zwr&fontSize=58&fontColor=ffffff&fontAlignY=55&stroke=ffffff&strokeWidth=1" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&center=true&vCenter=true&width=460&weight=700&lines=ROBLOX+DEVELOPER" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=20&pause=1200&color=ffffff&center=true&vCenter=true&width=460&weight=700&lines=ROBLOX+DEV" alt="Typing SVG" />
 
 </div>
 
@@ -44,12 +44,12 @@
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=g4zwr&show_icons=true&count_private=true&hide_border=false&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=cccccc&icon_color=ffffff" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=g4zwr&hide_border=false&background=000000&border=ffffff&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=cccccc&currStreakNum=ffffff&sideNums=cccccc&dates=888888" width="48%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=g4zwr&show_icons=true&count_private=true&hide_border=false&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=cccccc&icon_color=ffffff" width="48%"/>
+<img src="https://streak-stats.demolab.com/?user=g4zwr&hide_border=false&background=000000&border=ffffff&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=cccccc&currStreakNum=ffffff&sideNums=cccccc&dates=888888" width="48%"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4zwr&layout=compact&hide_border=false&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=cccccc" width="50%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=g4zwr&layout=compact&hide_border=false&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=cccccc" width="50%"/>
 </div>
 
 <br/>
