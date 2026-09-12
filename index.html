@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>g4zwr</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;800&display=swap');
+
+  :root{
+    --bg:#060606;
+    --bg-panel:#0e0e0e;
+    --line:#232323;
+    --fg:#f2f2f0;
+    --fg-dim:#a8a8a4;
+    --fg-dim2:#7a7a76;
+    --accent:#f2d024;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:'Inter',sans-serif;
+    line-height:1.6;
+    overflow-x:hidden;
+  }
+  ::selection{ background:var(--accent); color:#060606; }
+  h1,h2,.mono{ font-family:'Space Mono',monospace; }
+  a{ color:var(--accent); text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
+
+  #matrix-bg{
+    position:fixed;
+    inset:0;
+    z-index:-2;
+    background:#060606;
+    filter: blur(10px);
+  }
+  #matrix-bg.unblurred{
+    filter: blur(4px);
+    transition: filter 2s ease;
+  }
+
+  #page{
+    filter: blur(10px);
+  }
+  #page.unblurred{
+    filter: blur(0);
+    transition: filter 2s ease;
+  }
+
+  #enter-hint{
+    position:fixed;
+    inset:0;
+    z-index:900;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    padding-bottom:14vh;
+    cursor:pointer;
+  }
+  #enter-hint span{
+    font-family:'Space Mono',monospace;
+    font-size:13px;
+    letter-spacing:0.08em;
+    color:var(--fg-dim);
+    background:rgba(6,6,6,0.6);
+    padding:10px 18px;
+    border:1px solid var(--line);
+    border-radius:20px;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  #enter-hint.hidden{ display:none; }
+  @keyframes pulse{
+    0%,100%{ opacity:0.5; }
+    50%{ opacity:1; }
+  }
+
+  #sound-toggle{
+    position:fixed;
+    bottom:22px;
+    right:22px;
+    z-index:500;
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    color:var(--fg-dim);
+    font-family:'Space Mono',monospace;
+    font-size:12px;
+    padding:9px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    opacity:0;
+    transition:opacity 1s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  #sound-toggle.visible{ opacity:1; }
+  #sound-toggle:hover{ color:var(--fg); border-color:var(--accent); }
+  #sound-toggle .bar{
+    width:3px; height:10px;
+    background:currentColor;
+    display:inline-block;
+    animation: eq 0.9s ease-in-out infinite;
+  }
+  #sound-toggle .bar:nth-child(2){ animation-delay:0.15s; height:14px; }
+  #sound-toggle .bar:nth-child(3){ animation-delay:0.3s; height:8px; }
+  #sound-toggle.paused .bar{ animation-play-state:paused; opacity:0.4; }
+  @keyframes eq{
+    0%,100%{ transform:scaleY(0.4); }
+    50%{ transform:scaleY(1); }
+  }
+
+  #top-btn{
+    position:fixed;
+    bottom:22px;
+    left:22px;
+    z-index:500;
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    color:var(--fg-dim);
+    font-family:'Space Mono',monospace;
+    font-size:12px;
+    padding:9px 16px;
+    border-radius:20px;
+    cursor:pointer;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity 0.4s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  #top-btn.visible{ opacity:1; pointer-events:auto; }
+  #top-btn:hover{ color:var(--fg); border-color:var(--accent); }
+
+  .wrap{ max-width:720px; margin:0 auto; padding:0 24px; }
+
+  .hero{
+    min-height:100svh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:60px 24px;
+    position:relative;
+  }
+  .hero h1{
+    font-family:'Inter',sans-serif;
+    font-weight:800;
+    font-size:clamp(46px,14vw,88px);
+    letter-spacing:-0.01em;
+    margin:0;
+    line-height:0.95;
+    color:var(--fg);
+    text-shadow:0 0 12px rgba(242,208,36,0.55), 0 0 36px rgba(242,208,36,0.35), 0 0 80px rgba(242,208,36,0.2);
+  }
+  .aka{
+    font-family:'Space Mono',monospace;
+    color:var(--accent);
+    letter-spacing:0.25em;
+    font-size:clamp(12px,3vw,15px);
+    margin-top:16px;
+    text-shadow:0 0 10px rgba(242,208,36,0.6), 0 0 24px rgba(242,208,36,0.3);
+  }
+  .quote{
+    max-width:56ch;
+    margin:44px auto 0;
+    font-size:16px;
+    color:var(--fg-dim);
+    min-height:3em;
+  }
+  .quote .lead{
+    color:var(--accent);
+    font-weight:500;
+    text-shadow:0 0 8px rgba(242,208,36,0.5), 0 0 20px rgba(242,208,36,0.25);
+  }
+  .quote em{ font-style:italic; }
+  .tagline{
+    margin-top:30px;
+    font-size:16px;
+    color:var(--fg-dim2);
+    font-family:'Space Mono',monospace;
+    letter-spacing:0.02em;
+  }
+  .scroll-cue{
+    position:absolute;
+    bottom:64px;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+  }
+  .scroll-cue .label{
+    font-family:'Space Mono',monospace;
+    font-size:11px;
+    letter-spacing:0.3em;
+    color:var(--fg-dim2);
+    margin-bottom:6px;
+  }
+  .chevrons span{
+    display:block;
+    width:10px; height:10px;
+    border-right:2px solid var(--fg-dim2);
+    border-bottom:2px solid var(--fg-dim2);
+    transform:rotate(45deg);
+    margin:0 auto;
+    animation: chevron 1.6s ease-in-out infinite;
+  }
+  .chevrons span:nth-child(2){ animation-delay:0.2s; margin-top:-4px; }
+  @keyframes chevron{
+    0%,100%{ opacity:0.2; }
+    50%{ opacity:1; }
+  }
+  .made-with{
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    font-family:'Space Mono',monospace;
+    font-size:12px;
+    color:var(--fg-dim2);
+  }
+
+  .reveal{
+    opacity:0;
+    transform:translateY(60px);
+    transition: opacity 2.6s cubic-bezier(0.16,1,0.3,1), transform 2.6s cubic-bezier(0.16,1,0.3,1);
+  }
+  .reveal.show{ opacity:1; transform:translateY(0); }
+
+  section{ padding:48px 0; border-top:1px solid var(--line); }
+  .wrap > section:first-child{ border-top:none; padding-top:0; }
+  h2{ font-size:14px; font-weight:400; color:var(--fg-dim2); margin:0 0 24px; }
+
+  .stack-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+    gap:14px;
+  }
+  .stack-item{
+    border:1px solid var(--line);
+    background:var(--bg-panel);
+    padding:14px 16px;
+    border-radius:2px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  .stack-item:hover{ border-color:var(--accent); transform:translateY(-2px); }
+  .stack-item .name{ font-family:'Space Mono',monospace; font-size:14px; display:block; margin-bottom:4px; }
+  .stack-item .role{ font-size:12.5px; color:var(--fg-dim2); }
+
+  .now-list{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+  .now-list li{ display:flex; gap:14px; align-items:baseline; font-size:15px; }
+  .now-list .dot{ width:6px; height:6px; border-radius:50%; background:var(--accent); flex:none; transform:translateY(-2px); }
+
+  .stats-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .stats-grid .stat-img{ width:100%; border:1px solid var(--line); border-radius:2px; display:block; }
+  .stats-grid .stat-img.full{ grid-column:1 / -1; }
+  @media (max-width:520px){ .stats-grid{ grid-template-columns:1fr; } }
+  .views{ margin-top:16px; }
+  .views img{ display:block; }
+
+  .links{ display:flex; gap:20px; flex-wrap:wrap; font-family:'Space Mono',monospace; font-size:13px; justify-content:center; margin-top:34px; }
+  .links a{ color:var(--fg); border-bottom:1px solid var(--line); padding-bottom:2px; }
+  .links a:hover{ color:var(--accent); border-color:var(--accent); text-decoration:none; }
+
+  /* ---- repos section ---- */
+  .repo-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:14px;
+  }
+  .repo-card{
+    border:1px solid var(--line);
+    background:var(--bg-panel);
+    padding:18px 18px 16px;
+    border-radius:3px;
+    position:relative;
+    overflow:hidden;
+    transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    min-height:132px;
+  }
+  .repo-card::before{
+    content:'';
+    position:absolute;
+    top:0; left:0; right:0;
+    height:2px;
+    background:linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity:0;
+    transition:opacity 0.3s ease;
+  }
+  .repo-card:hover{
+    border-color:var(--accent);
+    transform:translateY(-3px);
+    box-shadow:0 10px 30px -12px rgba(242,208,36,0.25);
+  }
+  .repo-card:hover::before{ opacity:1; }
+  .repo-top{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .repo-name{
+    font-family:'Space Mono',monospace;
+    font-size:14.5px;
+    color:var(--fg);
+    word-break:break-word;
+  }
+  .repo-name a{ color:inherit; }
+  .repo-name a:hover{ color:var(--accent); text-decoration:none; }
+  .repo-desc{
+    font-size:13px;
+    color:var(--fg-dim);
+    flex:1;
+  }
+  .repo-meta{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+    font-family:'Space Mono',monospace;
+    font-size:11.5px;
+    color:var(--fg-dim2);
+  }
+  .repo-meta span{ display:flex; align-items:center; gap:5px; }
+  .repo-meta .lang-dot{
+    width:8px; height:8px;
+    border-radius:50%;
+    background:var(--accent);
+    display:inline-block;
+  }
+  .repo-status{
+    font-family:'Space Mono',monospace;
+    font-size:12.5px;
+    color:var(--fg-dim2);
+    text-align:center;
+    padding:20px 0;
+  }
+  .repo-status.error{ color:#e06c6c; }
+  .repo-status .blink{ animation: blink 1.2s steps(2) infinite; }
+  @keyframes blink{ 50%{ opacity:0.2; } }
+
+  footer.site-footer{ padding:40px 0 80px; color:var(--fg-dim2); font-size:13px; font-family:'Space Mono',monospace; }
+
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ opacity:1; transform:none; transition:none; }
+    #page{ filter:none; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="matrix-bg"></canvas>
+
+<div id="enter-hint"></div>
+
+<audio id="bg-audio" loop preload="auto">
+  <source src="fish Slowed Down.mp3" type="audio/mpeg">
+</audio>
+
+<button id="sound-toggle" aria-label="Toggle sound">
+  <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  <span id="sound-label">sound on</span>
+</button>
+
+<button id="top-btn">↑ top</button>
+
+<div id="page">
+
+  <div class="hero">
+    <h1>G4ZWR</h1>
+    <div class="aka">AKA GAZE</div>
+    <p class="quote" id="quote"><span class="lead">"Nobody handed me any of this,"</span></p>
+    <p class="tagline">Unprofessional Cornball</p>
+    <div class="scroll-cue">
+      <div class="label">SCROLL</div>
+      <div class="chevrons"><span></span><span></span></div>
+    </div>
+    <div class="made-with">Made with ❤</div>
+  </div>
+
+  <div class="wrap">
+
+    <section>
+      <h2 class="reveal">projects:</h2>
+      <div class="repo-grid" id="repo-grid">
+        <div class="repo-status" id="repo-status"><span class="blink">fetching repos&hellip;</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">currently</h2>
+      <ul class="now-list">
+        <li class="reveal"><span class="dot"></span> Deep in Roblox development, building systems in Luau</li>
+        <li class="reveal"><span class="dot"></span> Producing music on mobile with FL Studio Mobile</li>
+        <li class="reveal"><span class="dot"></span> Drawing and animating in 2D and 3D</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="reveal">languages</h2>
+      <div class="stack-grid">
+        <div class="stack-item reveal"><span class="name">Luau</span><span class="role">Roblox scripting</span></div>
+        <div class="stack-item reveal"><span class="name">Python</span><span class="role">tools &amp; scripts</span></div>
+        <div class="stack-item reveal"><span class="name">HTML5</span><span class="role">web</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">tools</h2>
+      <div class="stack-grid">
+        <div class="stack-item reveal"><span class="name">Roblox Studio</span><span class="role">game dev</span></div>
+        <div class="stack-item reveal"><span class="name">Prisma 3D</span><span class="role">3D modeling</span></div>
+        <div class="stack-item reveal"><span class="name">APKTool M</span><span class="role">mobile dev</span></div>
+        <div class="stack-item reveal"><span class="name">FL Studio Mobile</span><span class="role">music production</span></div>
+        <div class="stack-item reveal"><span class="name">ibis Paint X</span><span class="role">digital art</span></div>
+        <div class="stack-item reveal"><span class="name">Alight Motion</span><span class="role">animation</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">environment</h2>
+      <div class="stack-grid">
+        <div class="stack-item reveal"><span class="name">Windows</span><span class="role">daily driver</span></div>
+        <div class="stack-item reveal"><span class="name">Arch Linux</span><span class="role">secondary</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">github stats</h2>
+      <div class="stats-grid">
+        <img class="reveal stat-img" src="https://github-readme-stats-fast.vercel.app/api?username=g4zwr&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&border_color=232323&title_color=f2f2f0&text_color=a8a8a4&icon_color=f2d024" alt="g4zwr's GitHub stats" loading="lazy">
+        <img class="reveal stat-img" src="https://streak-stats.demolab.com/?user=g4zwr&hide_border=true&background=00000000&border=232323&stroke=232323&ring=f2d024&fire=f2d024&currStreakLabel=f2f2f0&sideLabels=a8a8a4&currStreakNum=f2f2f0&sideNums=a8a8a4&dates=7a7a76" alt="g4zwr's GitHub streak" loading="lazy">
+        <img class="reveal stat-img full" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=g4zwr&layout=compact&hide_border=true&bg_color=00000000&border_color=232323&title_color=f2f2f0&text_color=a8a8a4" alt="g4zwr's top languages" loading="lazy">
+      </div>
+      <div class="views reveal">
+        <img src="https://komarev.com/ghpvc/?username=g4zwr&color=f2d024&style=flat-square&label=PROFILE+VIEWS" alt="profile views" loading="lazy">
+      </div>
+    </section>
+
+    <div class="links reveal">
+      <a href="https://www.roblox.com/users/10841765037" target="_blank" rel="noopener">Roblox</a>
+      <a href="https://www.youtube.com/@g4zwr" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://discord.com/users/1296500534739734530" target="_blank" rel="noopener">Discord</a>
+    </div>
+
+    <footer class="site-footer">
+      g4zwr &middot; <a href="https://github.com/g4zwr">github.com/g4zwr</a>
+    </footer>
+
+  </div>
+</div>
+
+<script>
+  const canvas = document.getElementById('matrix-bg');
+  const ctx = canvas.getContext('2d');
+  let w, h, columns, drops;
+  let prevW = 0, prevH = 0;
+  const chars = 'アカサタナハマヤラワガザダバパイキシチニヒミリヰギジヂビピウクスツヌフムユルグズヅブプ0123456789';
+
+  function setupMatrix(force){
+    const nw = window.innerWidth;
+    const nh = window.innerHeight;
+    if(!force && Math.abs(nw - prevW) < 5 && Math.abs(nh - prevH) < 150) return;
+    prevW = nw;
+    prevH = nh;
+    w = canvas.width = nw;
+    h = canvas.height = nh;
+    const fontSize = 16;
+    columns = Math.floor(w / fontSize);
+    drops = new Array(columns).fill(1);
+  }
+  setupMatrix(true);
+  window.addEventListener('resize', () => setupMatrix(false));
+
+  function drawMatrix(){
+    ctx.fillStyle = 'rgba(6,6,6,0.08)';
+    ctx.fillRect(0, 0, w, h);
+    ctx.fillStyle = '#f2d024';
+    ctx.font = '16px monospace';
+    for(let i = 0; i < drops.length; i++){
+      const text = chars[Math.floor(Math.random() * chars.length)];
+      ctx.globalAlpha = Math.random() * 0.5 + 0.3;
+      ctx.fillText(text, i * 16, drops[i] * 16);
+      if(drops[i] * 16 > h && Math.random() > 0.975){
+        drops[i] = 0;
+      }
+      drops[i]++;
+    }
+    ctx.globalAlpha = 1;
+  }
+  setInterval(drawMatrix, 45);
+
+  const quoteEl = document.getElementById('quote');
+  const quotes = [
+    'Hi :3333333333333',
+    'Nobody handed me any of this..',
+    'Hi Guys.',
+    'Sometimes i think about not thinking.',
+    'yes i see the bug too, no i am not fixing it today',
+  ];
+  quoteEl.innerHTML = '<span class="lead">"' + quotes[Math.floor(Math.random() * quotes.length)] + '"</span>';
+
+  const page = document.getElementById('page');
+  const matrixBg = document.getElementById('matrix-bg');
+  const enterHint = document.getElementById('enter-hint');
+  const audio = document.getElementById('bg-audio');
+  const soundToggle = document.getElementById('sound-toggle');
+  const soundLabel = document.getElementById('sound-label');
+  const topBtn = document.getElementById('top-btn');
+
+  page.addEventListener('transitionend', () => {
+    if (page.classList.contains('unblurred')) page.style.filter = 'none';
+  });
+
+  enterHint.addEventListener('click', () => {
+    page.classList.add('unblurred');
+    matrixBg.classList.add('unblurred');
+    enterHint.classList.add('hidden');
+    audio.volume = 0.5;
+    audio.play().catch(() => {});
+    soundToggle.classList.add('visible');
+  }, { once: true });
+
+  soundToggle.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play().catch(() => {});
+      soundToggle.classList.remove('paused');
+      soundLabel.textContent = 'sound on';
+    } else {
+      audio.pause();
+      soundToggle.classList.add('paused');
+      soundLabel.textContent = 'sound off';
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    topBtn.classList.toggle('visible', window.scrollY > window.innerHeight * 0.6);
+  });
+  topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('show'), i * 90);
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  const REPO_USER = 'g4zwr';
+  const EXCLUDED_REPOS = ['g4zwr']; 
+
+  function escapeHTML(str){
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+
+  function timeAgo(dateStr){
+    const diff = Date.now() - new Date(dateStr).getTime();
+    const days = Math.floor(diff / 86400000);
+    if (days < 1) return 'today';
+    if (days === 1) return 'yesterday';
+    if (days < 30) return days + 'd ago';
+    const months = Math.floor(days / 30);
+    if (months < 12) return months + 'mo ago';
+    return Math.floor(months / 12) + 'y ago';
+  }
+
+  async function loadRepos(){
+    const grid = document.getElementById('repo-grid');
+    const status = document.getElementById('repo-status');
+    try{
+      const res = await fetch(`https://api.github.com/users/${REPO_USER}/repos?per_page=100&sort=updated`, {
+        headers: { 'Accept': 'application/vnd.github+json' }
+      });
+      if(!res.ok) throw new Error('GitHub API ' + res.status);
+      let repos = await res.json();
+
+      repos = repos
+        .filter(r => !r.fork)
+        .filter(r => !EXCLUDED_REPOS.includes(r.name.toLowerCase()))
+        .sort((a,b) => (b.stargazers_count - a.stargazers_count) || (new Date(b.updated_at) - new Date(a.updated_at)));
+
+      if(!repos.length){
+        status.textContent = 'no public repos to show';
+        status.classList.remove('error');
+        return;
+      }
+
+      grid.innerHTML = '';
+      repos.forEach((r, i) => {
+        const card = document.createElement('div');
+        card.className = 'repo-card reveal';
+        card.style.transitionDelay = (i * 40) + 'ms';
+
+        const desc = r.description ? escapeHTML(r.description) : 'no description yet.';
+        const lang = r.language ? `<span><span class="lang-dot"></span>${escapeHTML(r.language)}</span>` : '';
+        const stars = r.stargazers_count ? `<span>★ ${r.stargazers_count}</span>` : '';
+        const forks = r.forks_count ? `<span>⑂ ${r.forks_count}</span>` : '';
+        const updated = `<span>${timeAgo(r.updated_at)}</span>`;
+
+        card.innerHTML = `
+          <div class="repo-top">
+            <span class="repo-name"><a href="${r.html_url}" target="_blank" rel="noopener">${escapeHTML(r.name)}</a></span>
+          </div>
+          <div class="repo-desc">${desc}</div>
+          <div class="repo-meta">${lang}${stars}${forks}${updated}</div>
+        `;
+        grid.appendChild(card);
+        io.observe(card);
+        requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add('show')));
+      });
+    }catch(err){
+      status.classList.add('error');
+      status.textContent = 'could not load repos — rate limited or offline';
+      console.error(err);
+    }
+  }
+  loadRepos();
+</script>
+
+</body>
+</html>
