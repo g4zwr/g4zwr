@@ -6,7 +6,7 @@
     width="150"
     height="150"
     alt="g4zwr"
-    style="border-radius: 22px;"
+    style="border-radius: 67px;"
   />
 </a>
 
