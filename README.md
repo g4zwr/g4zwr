@@ -1,16 +1,19 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**g4zwr/g4zwr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://github.com/g4zwr">
+  <img
+    src="https://github.com/g4zwr.png?size=200"
+    width="150"
+    height="150"
+    alt="g4zwr"
+    style="border-radius: 22px;"
+  />
+</a>
 
-Here are some ideas to get you started:
+# g4zwr
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&color=FFFFFF&background=000000&pause=1500&center=true&vCenter=true&width=500&height=50&lines=g4zwr.is-a.dev;visit+my+site+%3A33)](https://g4zwr.is-a.dev)
+
+[![Profile views](https://komarev.com/ghpvc/?username=g4zwr&style=social)](https://github.com/g4zwr)
+
+</div>
