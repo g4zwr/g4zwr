@@ -10,7 +10,7 @@
   />
 </a>
 
-# g4zwr
+# Hi, I'm g4zwr
 
 **Roblox gameplay developer working in Luau, with web prototypes.**
 
@@ -36,7 +36,7 @@ From-scratch software raytracer for Roblox with per-pixel raycasting, tiled/inte
 
 Lua MIDI interpretation and playback system for Roblox virtual-piano environments, focused on timing precision, key mapping, and workspace song scanning.
 
-### [Portfolio site](https://g4zwr.is-a.dev/projects)
+### [My site](https://g4zwr.is-a.dev/projects)
 
 Live project index with about and contact pages.
 
