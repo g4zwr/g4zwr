@@ -12,9 +12,9 @@
 
 # g4zwr
 
-**Roblox gameplay developer working in Luau, with additional Python and web prototypes.**
+**Roblox gameplay developer working in Luau, with web prototypes.**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&color=FFFFFF&background=00000000&pause=1500&center=true&vCenter=true&width=640&height=50&lines=Roblox+gameplay+systems+in+Luau;Custom+rendering+and+MIDI+automation;Python+tools+and+game+prototypes)](https://g4zwr.is-a.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&color=FFFFFF&background=00000000&pause=1500&center=true&vCenter=true&width=640&height=50&lines=Roblox+gameplay+systems+in+Luau;Custom+rendering+and+MIDI+automation;Luau+tools+and+experiments)](https://g4zwr.is-a.dev)
 
 [Website](https://g4zwr.is-a.dev) • [Projects](https://g4zwr.is-a.dev/projects) • [Contact](https://g4zwr.is-a.dev/contact)
 
@@ -24,7 +24,7 @@
 
 - Gameplay systems and scripting for Roblox in Luau/Lua.
 - Custom rendering experiments, automation, and developer tools.
-- Python game prototypes and engineering fundamentals.
+- Web portfolio and project presentation.
 
 ## Featured projects
 
@@ -36,17 +36,13 @@ From-scratch software raytracer for Roblox with per-pixel raycasting, tiled/inte
 
 Lua MIDI interpretation and playback system for Roblox virtual-piano environments, focused on timing precision, key mapping, and workspace song scanning.
 
-### [Snake-Game](https://github.com/g4zwr/Snake-Game)
-
-Python/Pygame arcade Snake with grid movement, collision handling, adaptive speed scaling, persistent high scores, and pause/game-over states.
-
 ### [Portfolio site](https://g4zwr.is-a.dev/projects)
 
 Live project index with about and contact pages.
 
 ## Core stack
 
-`Luau` `Lua` `Roblox Studio` `Python` `Pygame` `HTML`
+`Luau` `Lua` `Roblox Studio` `HTML`
 
 ## Contact
 
