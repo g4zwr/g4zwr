@@ -12,7 +12,7 @@
 
 # Hi, I'm g4zwr
 
-**Roblox gameplay developer working in Luau, with web prototypes.**
+**Im a Roblox gameplay developer working in Luau**
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&color=FFFFFF&background=00000000&pause=1500&center=true&vCenter=true&width=640&height=50&lines=Roblox+gameplay+systems+in+Luau;Custom+rendering+and+MIDI+automation;Luau+tools+and+experiments)](https://g4zwr.is-a.dev)
 
