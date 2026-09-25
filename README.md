@@ -12,8 +12,51 @@
 
 # g4zwr
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&color=FFFFFF&background=000000&pause=1500&center=true&vCenter=true&width=500&height=50&lines=g4zwr.is-a.dev;visit+my+site+%3A33)](https://g4zwr.is-a.dev)
+**Roblox gameplay developer working in Luau, with additional Python and web prototypes.**
 
-[![Profile views](https://komarev.com/ghpvc/?username=g4zwr&style=social)](https://github.com/g4zwr)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&color=FFFFFF&background=00000000&pause=1500&center=true&vCenter=true&width=640&height=50&lines=Roblox+gameplay+systems+in+Luau;Custom+rendering+and+MIDI+automation;Python+tools+and+game+prototypes)](https://g4zwr.is-a.dev)
+
+[Website](https://g4zwr.is-a.dev) • [Projects](https://g4zwr.is-a.dev/projects) • [Contact](https://g4zwr.is-a.dev/contact)
 
 </div>
+
+## What I do
+
+- Gameplay systems and scripting for Roblox in Luau/Lua.
+- Custom rendering experiments, automation, and developer tools.
+- Python game prototypes and engineering fundamentals.
+
+## Featured projects
+
+### [RetroRender-Engine](https://github.com/g4zwr/RetroRender-Engine)
+
+From-scratch software raytracer for Roblox with per-pixel raycasting, tiled/interlaced rendering, procedural materials, and dynamic sky/cloud/sun simulation.
+
+### [Midi-Auto-Player](https://github.com/g4zwr/Midi-Auto-Player)
+
+Lua MIDI interpretation and playback system for Roblox virtual-piano environments, focused on timing precision, key mapping, and workspace song scanning.
+
+### [Snake-Game](https://github.com/g4zwr/Snake-Game)
+
+Python/Pygame arcade Snake with grid movement, collision handling, adaptive speed scaling, persistent high scores, and pause/game-over states.
+
+### [Portfolio site](https://g4zwr.is-a.dev/projects)
+
+Live project index with about and contact pages.
+
+## Core stack
+
+`Luau` `Lua` `Roblox Studio` `Python` `Pygame` `HTML`
+
+## Contact
+
+- Email: [g4zwr@duck.com](mailto:g4zwr@duck.com) — formal/business inquiries.
+- WhatsApp: [chat](https://wa.me/qr/g4zwr) — fastest for collab or commission questions.
+- Discord: [profile](https://discord.com/users/1296500534739734530) — game-dev talk and playtesting.
+- Roblox: [profile](https://www.roblox.com/users/10841765037) — in-game adds and current builds.
+- YouTube: [@g4zwr](https://www.youtube.com/@g4zwr) — devlogs and gameplay clips.
+- TikTok: [@g4zwr](https://www.tiktok.com/@g4zwr) — short clips and behind-the-scenes.
+- Reddit: [u/g4zwr](https://www.reddit.com/user/g4zwr) — progress and dev communities.
+- X: [@g4zwr_](https://x.com/g4zwr_) — updates and thoughts.
+
+Full breakdown: [https://g4zwr.is-a.dev/contact](https://g4zwr.is-a.dev/contact)
