@@ -10,7 +10,7 @@
   />
 </a>
 
-# Hi, Im g4zwr AKA Gaze
+# Hi, Im Gaze
 
 **Im a Roblox gameplay developer working in Lua**
 
