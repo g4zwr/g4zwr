@@ -24,7 +24,6 @@
 
 - Gameplay systems and scripting for Roblox in Luau/Lua.
 - Custom rendering experiments, automation, and developer tools.
-- Web portfolio and project presentation.
 
 ### [My site](https://g4zwr.is-a.dev/projects)
 
