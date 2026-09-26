@@ -12,6 +12,4 @@
 
 # Hi, Im Gaze
 
-[Website](https://g4zwr.is-a.dev) • [Projects](https://g4zwr.is-a.dev/projects) • [Contact](https://g4zwr.is-a.dev/contact)
-
-</div>
+**Im a Roblox gameplay developer**
