@@ -10,9 +10,9 @@
   />
 </a>
 
-# Hi, I'm g4zwr
+# Hi, Im g4zwr AKA Gaze
 
-**Im a Roblox gameplay developer working in Luau**
+**Im a Roblox gameplay developer working in Lua**
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&color=FFFFFF&background=00000000&pause=1500&center=true&vCenter=true&width=640&height=50&lines=Roblox+gameplay+systems+in+Luau;Custom+rendering+and+MIDI+automation;Luau+tools+and+experiments)](https://g4zwr.is-a.dev)
 
@@ -25,16 +25,6 @@
 - Gameplay systems and scripting for Roblox in Luau/Lua.
 - Custom rendering experiments, automation, and developer tools.
 - Web portfolio and project presentation.
-
-## Featured projects
-
-### [RetroRender-Engine](https://github.com/g4zwr/RetroRender-Engine)
-
-From-scratch software raytracer for Roblox with per-pixel raycasting, tiled/interlaced rendering, procedural materials, and dynamic sky/cloud/sun simulation.
-
-### [Midi-Auto-Player](https://github.com/g4zwr/Midi-Auto-Player)
-
-Lua MIDI interpretation and playback system for Roblox virtual-piano environments, focused on timing precision, key mapping, and workspace song scanning.
 
 ### [My site](https://g4zwr.is-a.dev/projects)
 
