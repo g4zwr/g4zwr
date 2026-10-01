@@ -2,11 +2,9 @@
 
 <a href="https://github.com/g4zwr">
   <img
-    src="https://raw.githubusercontent.com/g4zwr/g4zwr.github.io/refs/heads/main/g4zwr.svg?size=200"
-    width="150"
-    height="150"
+    src="https://raw.githubusercontent.com/g4zwr/g4zwr/main/g4zwr.svg"
+    width="480"
     alt="g4zwr"
-    style="border-radius: 50%;"
   />
 </a>
 
