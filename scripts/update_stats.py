@@ -29,7 +29,7 @@ def bar(label, tl):
 
 def stats_window(d):
     tx = [64, 278, 492, 706]
-    w = [bar(f'stats.dll — github.com/{USER}', 252)]
+    w = [bar(f'https://{USER}.is-a.dev', 252)]
     w.append(f'<text x="64" y="448" font-size="14" fill="#fff" opacity="0.5">@{USER} · roblox gameplay dev</text>')
     w.append(f'<text x="896" y="448" font-size="14" text-anchor="end" fill="#fff" opacity="0.5">streak {d["streak"]}d</text>')
     vals = []
