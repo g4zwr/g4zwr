@@ -8,8 +8,4 @@
   />
 </a>
 
-<h1>Hi, I'm Gaze</h1>
-
-<p><strong>I'm a Roblox gameplay developer</strong></p>
-
 </div>
