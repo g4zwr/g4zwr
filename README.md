@@ -10,13 +10,12 @@
 
 <br />
 
-<a href="https://g4zwr.is-a.dev">
+<a href="">
   <img
     src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/Donut.svg"
     width="200"
     alt="donut"
   />
-</a>
 <img
   src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/box.svg"
   width="200"
@@ -27,5 +26,6 @@
   width="200"
   alt="pizza"
 />
+</a>
 
 </div>
