@@ -6,12 +6,27 @@
     width="480"
     alt="g4zwr"
   />
-
-  <img
-    src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/Donut.svg"
-    width="480"
-    alt="g4zwr"
-  />
 </a>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://g4zwr.is-a.dev">
+        <img
+          src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/Donut.svg"
+          width="240"
+          alt="donut"
+        />
+      </a>
+    </td>
+    <td align="center">
+      <img
+        src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/box.svg"
+        width="240"
+        alt="box"
+      />
+    </td>
+  </tr>
+</table>
 
 </div>
