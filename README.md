@@ -5,7 +5,7 @@
     alt="g4zwr"
   />
    <img
-    src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/donut.svg"
+    src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/Donut.svg"
     alt="g4zwr"
   />
 
