@@ -7,7 +7,6 @@
    <img
     src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/Donut.svg"
     alt="g4zwr"
-    style="background-color: black
   />
 
 </div>
