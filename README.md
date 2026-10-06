@@ -4,6 +4,7 @@
     <img
       src="https://raw.githack.com/g4zwr/g4zwr/refs/heads/main/g4zwr-banner.svg"
       alt="g4zwr"
+      width="300"
     />
   </a>
 
